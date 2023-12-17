@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel="stylesheet" href="{% static "css/styles.css" %}" />
+</head>
+<body>
+ <a id="log" href="{{log_url}}">{{log}}</a>
+<div class="main">
+
+<h1>Welcome to Library</h1>
+
+ <ul>
+     <li><a href="/registration/">Registration</a></li>
+ <li><a href="/login/">Login</a></li>
+ <li><a href="/books/">Catalog</a></li>
+ <li><a href="/cabinet/">Cabinet</a></li>
+
+ </ul>
+</div>
+<!--<img class="image" src = "{% static "pictures/fon-1-img.jpg" %}">-->
+</body>
+</html>

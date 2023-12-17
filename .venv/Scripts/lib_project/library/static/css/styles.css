@@ -1,0 +1,161 @@
+.login input{
+    width:500px;
+    }
+    .login{
+    margin:25px;
+    }
+
+    .login .title{
+        margin-bottom:20px;
+    }
+        
+    .main{
+    height:100vh;
+    background-image: url("../pictures/new-fon.png");
+    background-repeat: no-repeat;
+    margin-left:25px;
+    margin-top:25px;
+    }
+    
+    
+    .main ul li{
+    list-style:none;
+    font-size:25px;
+    background:green;
+    padding:15px;
+    border-radius:7px;
+    margin-top:25px;
+    width:125px;
+    }
+.main h1{
+    font-size: 40px;
+    color:green;
+}
+a{
+    text-decoration:none;
+    color:white;
+
+}
+#log{
+    position:absolute;
+    right:90px; /* 4 or 90 */
+    top:35px;
+    text-decoration:none;
+    background:green;
+    color:white;
+    font-size:24px;
+    padding:10px;
+    border-radius:7px;
+    z-index: 10;
+
+}
+.search input{
+        width:500px;
+        }
+
+        .catalog{
+            margin:25px;
+            }
+            .catalog .title{
+                margin-bottom:35px;
+                }
+                .catalog .submit{
+                    width:100px;
+                    margin-top: 20px;
+                    margin-bottom: 40px;
+                }
+
+.registration input{
+    width:500px;
+    }
+    .registration{
+    margin:25px;
+    }
+    .registration .title{
+        margin-bottom:35px;
+        }
+        .registration .submit{
+            width:100px;
+            margin-top: 20px;
+        }
+        .login .submit{
+            width:100px;
+            margin-top: 20px;
+        }
+        
+        .registr-btn{
+            margin:25px;
+            margin-top: 50px;
+            background: #6495ED;
+            padding:10px;
+            border-radius:7px;
+            color:white;
+
+           
+
+        }
+        .cabinet{
+            margin: 25px;
+        }
+        .cabinet h1{
+            margin-bottom: 40px;
+        }
+        .cabinet #catalog_btn{
+            margin-top: 70px;
+            background: #6495ED;
+            padding:10px;
+            font-size: 24px;
+            border-radius:7px;
+            color:white;
+
+        }
+        .catalog{
+            margin: 25px;
+            
+        }
+        .catalog h1{
+            margin-bottom: 30px;
+           
+        }
+.catalog .header{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.catalog a{
+    margin-left: 15px;
+    background: #6495ED;
+    padding:10px;
+    font-size: 20px;
+    border-radius:7px;
+    color:white;
+
+}
+.catalog .confirm-btn{
+    margin-right: 25px;
+    background: green;
+}
+/*.catalog .catalog-btn{
+    background: yellow;
+}*/
+.main .message{
+    font-size: 40px;
+    color: green;
+    margin-bottom: 30px;
+}
+
+.main .cabinet{
+    
+    margin-left: 15px;
+    background: #6495ED;
+    padding:10px;
+    font-size: 20px;
+    border-radius:7px;
+    color:white;
+}
+/*.image{
+    position:absolute;
+    right:15px;
+    top:15px;
+    z-index: 15;
+}*/

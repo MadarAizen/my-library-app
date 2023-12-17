@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Django Forms</title>
+</head>
+<body>
+   <form method="POST" action="/create_book/">
+   {% csrf_token %}
+    <table>
+        {{ form.as_ul }}
+    </table>
+	<input type="submit" value="Send">
+	</form>
+</body>
+</html>
